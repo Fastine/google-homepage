@@ -34,8 +34,13 @@ ul {
 li {
     display: block;
     text-align: center;
-    padding: 15px 10px;
+    padding: 15px;
     float: left
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 
@@ -72,7 +77,6 @@ nav.top {
     background-color: #f2f2f2;
     overflow: hidden;
     color: rgb(95, 99, 104);
-    text-decoration: none;
 }
   /* Classes */
 
@@ -126,6 +130,11 @@ nav.top {
 .bottom-right {
     float: right;
 }
+
+img.profile {
+    height: 30px;
+    width: 30px;
+}
 /* Psuedoelements */
 
 input[type=search]:focus,
@@ -137,3 +146,8 @@ button:focus,
 button:hover {
     border: 1px solid #c6c6c6;
     color: #222;
+}
+
+a:hover {
+    text-decoration: underline;
+}
