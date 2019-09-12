@@ -1,0 +1,91 @@
+/* Universal Box Sizing with Inheritance */
+html {
+    box-sizing: border-box;
+  }
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  /* Elements */
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img 
+.google {
+    width: 272px;
+    height: 92px;
+}
+
+form {
+    text-align: center;
+}
+
+.buttons {
+    width: 300px;
+    margin: 0 auto;
+    padding: 15px 8px;
+    display: inline-block;
+}
+
+.button {
+    padding: 10px 16px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 4px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #5F6368;
+    border: 1px solid transparent;
+}
+  /* Classes */
+
+.main {
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px 15px;
+
+}
+
+.search {
+    display: block;
+    width: 450px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 18px 30px;
+    border-radius: 17px;
+    margin-bottom: 8px;
+    border: 1px solid lightgrey;
+}
+
+.search-wrapper {
+    position: relative;
+}
+
+.search-wrapper img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding-left: 20px;
+    paddinG-top: 10px;
+}
+
+.google {
+    padding-bottom: 20px;
+}
+
+/* Psuedoelements */
+
+input[type=search]:focus,
+input[type=search]:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:focus,
+button:hover {
+    border: 1px solid #c6c6c6;
+    color: #222;
