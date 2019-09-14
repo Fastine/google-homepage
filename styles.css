@@ -134,6 +134,8 @@ nav.top {
 img.profile {
     height: 30px;
     width: 30px;
+    position: relative;
+    top: -5px;
 }
 /* Psuedoelements */
 
